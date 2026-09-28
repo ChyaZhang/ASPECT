@@ -17,6 +17,10 @@ We also release **PathoVernier**, a benchmark of 759 questions on 553 H&E patche
 nucleus types in image regions. Reference counts come from expert nucleus annotations, so both the final
 answer and the reported counts can be checked.
 
+<p align="center">
+  <img src="docs/aspect_overview.png" alt="Overview of ASPECT" width="100%">
+</p>
+
 ## TODOs📌
 
 - [x] Inference and PathoVernier evaluation code
