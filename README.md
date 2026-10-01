@@ -3,7 +3,7 @@
 <p align="left">
   <a href="https://huggingface.co/Mikezcy/ASPECT-8B"><img src="https://img.shields.io/badge/🤗%20Model-ASPECT--8B-yellow" alt="Model"></a>
   <a href="https://huggingface.co/datasets/Mikezcy/PathoVernier"><img src="https://img.shields.io/badge/🤗%20Benchmark-PathoVernier-blue" alt="Benchmark"></a>
-  <img src="https://img.shields.io/badge/Paper-coming%20soon-lightgrey" alt="Paper">
+  <a href="https://arxiv.org/abs/2609.34277"><img src="https://img.shields.io/badge/arXiv-2609.34277-b31b1b" alt="arXiv"></a>
 </p>
 
 ## Introduction📝
@@ -26,7 +26,7 @@ answer and the reported counts can be checked.
 - [x] Inference and PathoVernier evaluation code
 - [x] ASPECT-8B weights (gated)
 - [x] PathoVernier benchmark (gated)
-- [ ] Paper
+- [x] Paper ([arXiv](https://arxiv.org/abs/2609.34277))
 - [ ] Training code
 
 ## Installation🛠️
@@ -121,7 +121,16 @@ from Lizard, PUMA, PanNuke, CoNSeP and NuCLS; we thank their authors for releasi
 
 ## Citation❤️
 
-Coming soon.
+If you find ASPECT or PathoVernier useful, please cite:
+
+```bibtex
+@article{zhang2026see,
+  title   = {See, Measure, and Reason: Learning Visually Grounded Reasoning in Pathology},
+  author  = {Zhang, Chengyang and Zhang, Wenchuan and Li, Bo and Li, Mengran and Liu, Xinyu and Yang, Jiaming and Chen, Jie and Zhang, Zhang and Yi, Yuhao and Bu, Hong and Lv, Jiancheng},
+  journal = {arXiv preprint arXiv:2609.34277},
+  year    = {2026}
+}
+```
 
 ## License
 
